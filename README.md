@@ -86,3 +86,4 @@ Next.js 15 (App Router) · Supabase (Auth, Postgres, RLS, Realtime, Storage) · 
 - **Bars partenaires** : aucun lieu n'est pré-rempli. Démarcher les bars, les faire candidater sur `/partenaires`,
   signer un accord écrit (offre, durée, droit d'usage du nom et du logo), puis valider dans `/admin`.
 - Lydia n'est pas proposé par Stripe : seuls CB, Apple Pay et Google Pay sont actifs.
+# studeals
