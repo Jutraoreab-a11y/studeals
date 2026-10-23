@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js : serveur de dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev"
+    },
+    {
+      "name": "Stripe : écouter les webhooks",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "stripe listen --forward-to localhost:3000/api/webhooks/stripe"
+    }
+  ]
+}
